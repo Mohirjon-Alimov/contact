@@ -1,0 +1,44 @@
+.form {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+input{
+  width: 30%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.btn {
+  width: 30%;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  height: 30px;
+  border-radius: 50px;
+  background-color: teal;
+}
+.btn:hover {
+  color: teal;
+  background-color: #fff;
+  border: 2px solid teal;
+}
+.btn:active {
+  
+  transform: scale(0.8) 0,2s;
+}
+input:hover {
+  border-bottom: 1px solid aqua;
+}
+li {
+  width: 40%;
+  padding: 1px;
+  margin: 4px;
+  border-radius: 10px;
+  border: aqua;
+  background-color: teal;
+}
+li p {
+  margin: 5px;
+}
